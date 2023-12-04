@@ -1,0 +1,19 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --neutral-colorscolor-600: rgba(212, 210, 227, 1);
+  --neutral-colorswhite: rgba(255, 255, 255, 1);
+  --text-single-200-regular-font-family: "DMSans-Regular", Helvetica;
+  --text-single-200-regular-font-size: 18px;
+  --text-single-200-regular-font-style: normal;
+  --text-single-200-regular-font-weight: 400;
+  --text-single-200-regular-letter-spacing: 0px;
+  --text-single-200-regular-line-height: 18px;
+}
